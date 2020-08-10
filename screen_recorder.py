@@ -13,7 +13,6 @@ import time
 import sys
 
 def run():
-    root.destroy()
     # display screen resolution, get it from your OS settings
     SCREEN_SIZE = pyautogui.size()
     # define the codec
@@ -41,6 +40,8 @@ def run():
         # write the frame
         out.write(frame)
     out.release()
+    root.destroy()
+    sys.exit(0)
 
 def screenshot():
     root.destroy()
