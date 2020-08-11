@@ -2,7 +2,7 @@
 """
 Created on Mon Mar  9 17:57:18 2020
 
-@author: Vivek
+@author: vivek9patel (github)
 """
 import cv2
 import tkinter as tk
